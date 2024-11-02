@@ -19,9 +19,38 @@ public class EmprestimoController : Controller
         return View(emprestimos);
     }
 
+    [HttpGet]
     public IActionResult Cadastrar()
     {
         return View();
+    }
+
+    [HttpGet]
+    public IActionResult Editar(int? id)
+    {
+        if (id == null || id == 0)
+            return NotFound();
+
+        EmprestimosModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+
+        if (emprestimo == null)
+            return NotFound();
+
+        return View(emprestimo);
+    }
+
+    [HttpGet]
+    public IActionResult Excluir(int? id)
+    {
+        if (id == null || id == 0)
+            return NotFound();
+
+        EmprestimosModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+
+        if (emprestimo == null)
+            return NotFound();
+
+        return View(emprestimo);
     }
 
     [HttpPost]
@@ -35,5 +64,18 @@ public class EmprestimoController : Controller
         }
 
         return View();
+    }
+
+    [HttpPost]
+    public IActionResult Editar(EmprestimosModel emprestimo)
+    {
+        if (ModelState.IsValid)
+        {
+            _db.Emprestimos.Update(emprestimo);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        return View(emprestimo);
     }
 }
