@@ -6,30 +6,32 @@
     <div class="mb-5 text-center">
         <h1>Excluir Empréstimos</h1>
     </div>
-    <form method="post" asp-controller="Emprestimo" asp-action="Editar">
+    <form method="post" asp-controller="Emprestimo" asp-action="Excluir">
 
         <input type="hidden" asp-for="Id"/>
 
+        <h2>Tem certeza que deseja excluir o registo abaixo?</h2>
+
         <div class="mb-3">
             <label for="Recebedor" class="form-label">Recebedor</label>
-            <input type="text" class="form-control" asp-for="Recebedor" id="recebedor" placeholder="Quem está recebendo o livro?">
+            <input type="text" class="form-control" asp-for="Recebedor" disabled id="recebedor" placeholder="Quem está recebendo o livro?">
             <span class="text-danger" asp-validation-for="Recebedor"></span>
         </div>
 
         <div class="mb-3">
             <label for="Fornecedor" class="form-label">Fornecedor</label>
-            <input type="text" class="form-control" asp-for="Fornecedor" id="fornecedor" placeholder="Quem está emprestando o livro?">
+            <input type="text" class="form-control" asp-for="Fornecedor" disabled id="fornecedor" placeholder="Quem está emprestando o livro?">
             <span class="text-danger" asp-validation-for="Fornecedor"></span>
         </div>
 
         <div class="mb-3">
             <label for="Livro" class="form-label">Livro</label>
-            <input type="text" class="form-control" asp-for="LivroEmprestado" id="livro" placeholder="Qual é o nome do livro?">
+            <input type="text" class="form-control" asp-for="LivroEmprestado" disabled id="livro" placeholder="Qual é o nome do livro?">
             <span class="text-danger" asp-validation-for="LivroEmprestado"></span>
         </div>
 
         <div class="d-flex gap-5 mt-5">
-            <button type="submit" class="btn btn-success w-50">Editar</button>
+            <button type="submit" class="btn btn-danger w-50">Excluir</button>
             <a class="btn btn-primary w-50" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
 
         </div>

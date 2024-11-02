@@ -78,4 +78,18 @@ public class EmprestimoController : Controller
 
         return View(emprestimo);
     }
+
+    [HttpPost]
+    public IActionResult Excluir(EmprestimosModel emprestimo)
+    {
+        if (emprestimo == null)
+        {
+            return NotFound();
+        }
+
+        _db.Emprestimos.Remove(emprestimo);
+        _db.SaveChanges();
+
+        return RedirectToAction("Index");
+    }
 }
