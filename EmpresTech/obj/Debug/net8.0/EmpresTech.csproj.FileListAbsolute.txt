@@ -442,3 +442,11 @@
 /Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/Microsoft.CodeAnalysis.Razor.dll
 /Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/obj/Debug/net8.0/EmpresTech.MvcApplicationPartsAssemblyInfo.cs
 /Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/obj/Debug/net8.0/EmpresTech.sourcelink.json
+/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/ClosedXML.dll
+/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/ClosedXML.Parser.dll
+/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/DocumentFormat.OpenXml.dll
+/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/DocumentFormat.OpenXml.Framework.dll
+/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/ExcelNumberFormat.dll
+/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/RBush.dll
+/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/SixLabors.Fonts.dll
+/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/bin/Debug/net8.0/System.IO.Packaging.dll

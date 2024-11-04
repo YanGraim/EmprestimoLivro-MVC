@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/EmpresTech.bundle.scp.css"
     },
     {
+      "Id": "/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/wwwroot/assets/book.png",
+      "PackagePath": "staticwebassets/assets/book.png"
+    },
+    {
       "Id": "/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/wwwroot/css/Materia.css",
       "PackagePath": "staticwebassets/css/Materia.css"
     },

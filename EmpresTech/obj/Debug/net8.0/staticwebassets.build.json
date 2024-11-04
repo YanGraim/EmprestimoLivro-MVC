@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gv/3xJZHRQJliGHk73fjsBIFuAytStn5+Mn61ZpLfTA=",
+  "Hash": "VxkFRs2dKZkPCn8djiK6y3yUPkIJdRf53juureagK4E=",
   "Source": "EmpresTech",
   "BasePath": "_content/EmpresTech",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/obj/Debug/net8.0/scopedcss/projectbundle/EmpresTech.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/wwwroot/assets/book.png",
+      "SourceId": "EmpresTech",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/wwwroot/",
+      "BasePath": "_content/EmpresTech",
+      "RelativePath": "assets/book.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/book.png"
     },
     {
       "Identity": "/Users/yangraim/Documents/dev/JovemProgramador/c#/EmpresTech/EmpresTech/wwwroot/css/Materia.css",
