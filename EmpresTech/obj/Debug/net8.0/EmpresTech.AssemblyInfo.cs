@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmpresTech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6d3076ff7d39e90d313151fe7106f11b2e33471")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27f585c39d500dfbffc01adc706597b1bce5f1ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmpresTech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmpresTech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
