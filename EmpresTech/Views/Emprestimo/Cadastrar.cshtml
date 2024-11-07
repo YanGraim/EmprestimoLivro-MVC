@@ -8,19 +8,19 @@
     </div>
     <form method="post" asp-controller="Emprestimo" asp-action="Cadastrar">
 
-        <div class="mb-3">
+        <div class="mb-4">
             <label for="Recebedor" class="form-label">Recebedor</label>
             <input type="text" class="form-control" asp-for="Recebedor" id="recebedor" placeholder="Quem está recebendo o livro?">
             <span class="text-danger" asp-validation-for="Recebedor"></span>
         </div>
 
-        <div class="mb-3">
+        <div class="mb-4">
             <label for="Fornecedor" class="form-label">Fornecedor</label>
             <input type="text" class="form-control" asp-for="Fornecedor" id="fornecedor" placeholder="Quem está emprestando o livro?">
             <span class="text-danger" asp-validation-for="Fornecedor"></span>
         </div>
 
-        <div class="mb-3">
+        <div class="mb-4">
             <label for="Livro" class="form-label">Livro</label>
             <input type="text" class="form-control" asp-for="LivroEmprestado" id="livro" placeholder="Qual é o nome do livro?">
             <span class="text-danger" asp-validation-for="LivroEmprestado"></span>
